@@ -1,1 +1,2 @@
-My dad is gay
+foo=input('enter a number')
+print (foo)
