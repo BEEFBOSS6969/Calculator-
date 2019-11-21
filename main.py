@@ -1,2 +1,2 @@
-foo=input('enter a number')
-print (foo)
+Paul=input('enter a number')
+print (Paul)
