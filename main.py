@@ -22,6 +22,7 @@ if user_input == "divide":
  result = str(num1/num2)
  print (" the answer is" + result)
 if user_input == "square root":
-
+ num1 = float (sqrt(Enter a number:")
+ print ("num1") 
 
 
