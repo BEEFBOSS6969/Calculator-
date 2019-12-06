@@ -21,6 +21,7 @@ if user_input == "divide":
  num2 = float (input("Enter another number:"))
  result = str(num1/num2)
  print (" the answer is" + result)
+if user_input == "square root":
 
 
-print(math.sqrt(25))
+
