@@ -1,3 +1,5 @@
+import math
+
 user_input = input("operation:")
 if user_input == "add":
  num1 = float(input("Enter a number:"))
@@ -19,3 +21,6 @@ if user_input == "divide":
  num2 = float (input("Enter another number:"))
  result = str(num1/num2)
  print (" the answer is" + result)
+
+
+print(math.sqrt(25))
