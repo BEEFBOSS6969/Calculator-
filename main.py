@@ -2,8 +2,18 @@ num1 = float(input("Enter a number:"))
 num2 = float(input("Enter another number:"))
 result = str(num1+num2)
 print (" the answer is"+ result)
-if user_input =="subtract"
+if user_input == "subtract"
 num1 = float (input("Enter a number:"))
 num2 = float (input("Enter another number:"))
 result = str(num1-num2)
+print (" the answer is" + result)
+if user_input == "multiply"
+num1 = float (input("Enter a number:"))
+num2 = float (input("enter another number:"))
+result = str(num1*num2)
+print (" the answer is" + result)
+if user_input == "divide"
+num1 = float (input("Enter a number:"))
+num2 = float (input("Enter another number:"))
+result = str(num1/num2)
 print (" the answer is" + result)
