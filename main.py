@@ -37,3 +37,7 @@ if user_input == "sin":
  num1 = float (input("Enter a number:"))
  result = str(math.sin(num1))
  print ("the answer is " + result)
+if user_input == "tan":
+ num1 = float (input("Enter a number:))
+ result = str(math.tan(num))
+ print ("the answer is " + result)
