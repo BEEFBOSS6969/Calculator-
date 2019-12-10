@@ -39,5 +39,5 @@ if user_input == "sin":
  print ("the answer is " + result)
 if user_input == "tan":
  num1 = float (input("Enter a number:"))
- result = str(math.tan(num))
+ result = str(math.tan(num1))
  print ("the answer is " + result)
