@@ -33,4 +33,4 @@ if user_input == "cos":
  num1 = float (input("Enter a number:"))
  result = str(math.cos(num1))
  print ("the answer is" + result)
-if user
+
