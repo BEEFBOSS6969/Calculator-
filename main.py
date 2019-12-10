@@ -25,5 +25,8 @@ if user_input == "square root":
  num1 = float (input("Enter a number:"))
  result = str(math.sqrt(num1))
  print ("the answer is" + result)
-
+if user_input == "square"
+ num1 = float (input("Enter a number:"))
+ result = str(num1*num1)
+ print ("the answer is" + result)
 
