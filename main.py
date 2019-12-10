@@ -29,4 +29,7 @@ if user_input == "square":
  num1 = float (input("Enter a number:"))
  result = str(num1*num1)
  print ("the answer is" + result)
-
+if user_input == "cos":
+ num1 = float (input("Enter a number:"))
+ result = str(math.cos(num1))
+ print ("the answer is" + result)
