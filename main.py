@@ -33,4 +33,7 @@ if user_input == "cos":
  num1 = float (input("Enter a number:"))
  result = str(math.cos(num1))
  print ("the answer is" + result)
-
+if user_input == "sin":
+ num1 = float (input("Enter a number:"))
+ result = str(math.sin(num1))
+ print ("the answer is " + result)
