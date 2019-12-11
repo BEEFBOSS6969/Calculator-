@@ -50,7 +50,7 @@ if user_input == "exponent":
  num2 = int(input("Enter another number:"))
  result = str(num1**num2)
  print (" The answer is " + result)
-if user_input == "atan"
+if user_input == "atan":
  num1 = int(input("Enter a number
  result = str(math.atan(num1))
  print (" The answer is " + result)
