@@ -45,3 +45,8 @@ if user_input == "cubing":
  num1 = float (input( "Enter a number:"))
  result = str(num1*num1*num1)
  print (" the answer is " + result)
+if user_input == "exponents":
+ num1 = float ( input( "Enter a number:"))
+ num2 = float ( input( "Enter another number:"))
+ result = str(num1^num2)
+ print (" The answer is " + result)
