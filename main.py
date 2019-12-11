@@ -46,7 +46,7 @@ if user_input == "cubing":
  result = str(num1*num1*num1)
  print (" the answer is " + result)
 if user_input == "exponent":
- num1 = int ( input( "Enter a number:"))
- num2 = int ( input( "Enter another number:"))
+ num1 = int(input("Enter a number:"))
+ num2 = int(input("Enter another number:"))
  result = str(num1^num2)
  print (" The answer is " + result)
