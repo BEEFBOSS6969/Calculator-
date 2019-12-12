@@ -46,12 +46,12 @@ if user_input == "cubing":
  result = str(num1*num1*num1)
  print (" the answer is " + result)
 if user_input == "exponent":
- num1 = int(input("Enter a number:"))
- num2 = int(input("Enter another number:"))
+ num1 = float(input("Enter a number:"))
+ num2 = float(input("Enter another number:"))
  result = str(num1**num2)
  print (" The answer is " + result)
 if user_input == "atan":
- num1 = int(input("Enter a number:"))
+ num1 = float(input("Enter a number:"))
  result = str(math.atan(num1))
  print (" The answer is " + result)
 if  user_input == "acos":
@@ -59,6 +59,6 @@ if  user_input == "acos":
  result = str(math.acos(num1))
  print ("the answer is" + result)
 if user_input == "asin":
- num1 = int(input("Enter a number:"))
+ num1 = float(input("Enter a number:"))
  result = str(math.asin(num1))
  print ("the answer is" + result)
