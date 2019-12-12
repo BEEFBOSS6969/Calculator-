@@ -54,3 +54,11 @@ if user_input == "atan":
  num1 = int(input("Enter a number:"))
  result = str(math.atan(num1))
  print (" The answer is " + result)
+if  user_input == "acos":
+ num1 = int(input("Enter a number:"))
+ result = str(math.acos(num1))
+ print ("the answer is" + result)
+if user_input == "asin":
+ num1 = int(input("Enter a number:"))
+ result = str(math.asin(num1))
+ print ("the answer is" + result)
