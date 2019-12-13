@@ -62,3 +62,30 @@ if user_input == "asin":
  num1 = float(input("Enter a number:"))
  result = str(math.asin(num1))
  print ("the answer is" + result)
+if user_input == "area of a cicrle":
+ radius = float(inout("Enter a number:))
+ result = str(radius*radius*3.14)
+ print ("the answer is" + result)
+if user_input == "circumference":  
+ radius = float(input("Entrer a number:"))
+ result = str(2*3.14*radius)
+ print ("the answer is" + result)
+if user_input == "area of a rectangle":
+ length = float(input("Enter a length:"))
+ width = float(input("Enter a width:"))
+ result = str(length*Width)
+ print ("The area of the rectangle is:" + result)
+if user_input == "perimeter of a recangle":
+ length = float(input("Enter a length:"))
+ width = float(input("Enter a width:"))
+ result = str(length+width+length+width)
+ print ("The primeter of a rectangle is:" + result)
+if user_input == "area of a square":
+ length = float(input("Enter a length:"))
+ width = float(input("Enter a width:"))
+ result = str(length*Width)
+ print ("The area of the square is:" + result)
+if user_input == "perimeter of a square":                     
+                     
+        
+                   
