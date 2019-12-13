@@ -62,7 +62,7 @@ if user_input == "asin":
  num1 = float(input("Enter a number:"))
  result = str(math.asin(num1))
  print ("the answer is" + result)
-if user_input == "area of a cicrle":
+if user_input == "area of a circle":
  radius = float(input("Enter a number:"))
  result = str(radius*radius*3.14)
  print ("the answer is" + result)
@@ -90,5 +90,15 @@ if user_input == "perimeter of a square":
  width = float(input("Enter a width:"))
  result = str(length+length+width+width)
  print (" the perimeter of the square is:" + result)                                          
-        
-                   
+if user_input == "area of a parallelogram"
+ base = float(input("Enter the width of the parallelogram:"))
+ height = float(input("Enter the hieght of the paralleogram:"))
+ result = str(base*height)
+ print ("The area of the parallelogram is" + result)
+if user_input == "perimeter of a parallelogram":
+ base = float(input("Enter the width of the base of the parallelogram:"))
+ side = float(input("Enter the legth of the side of the parallelogram:"))
+ result = str(2*(base+side)
+ print ("The primeter of the parallelogram is" + result)
+if user_input == "              
+               
