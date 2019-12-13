@@ -90,7 +90,7 @@ if user_input == "perimeter of a square":
  width = float(input("Enter a width:"))
  result = str(length+length+width+width)
  print (" the perimeter of the square is:" + result)                                          
-if user_input == "area of a parallelogram"
+if user_input == "area of a parallelogram":
  base = float(input("Enter the width of the parallelogram:"))
  height = float(input("Enter the hieght of the paralleogram:"))
  result = str(base*height)
