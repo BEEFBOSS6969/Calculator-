@@ -99,6 +99,6 @@ if user_input == "perimeter of a parallelogram":
  base = float(input("Enter the width of the base of the parallelogram:"))
  side = float(input("Enter the legth of the side of the parallelogram:"))
  result = str(2*(base+side)
- print ("The primeter of the parallelogram is" + result)
+ print ("The perimeter of the parallelogram is:" + result)
 if user_input == "              
                
