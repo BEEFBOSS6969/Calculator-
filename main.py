@@ -89,7 +89,6 @@ if user_input == "perimeter of a square":
  length = float(input("Enter a length:"))
  width = float(input("Enter a width:"))
  result = str(length+length+width+width)
- print (" the perimeter of the square is:" + result)                     
-                     
+ print (" the perimeter of the square is:" + result)                                          
         
                    
