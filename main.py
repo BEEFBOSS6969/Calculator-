@@ -63,7 +63,7 @@ if user_input == "asin":
  result = str(math.asin(num1))
  print ("the answer is" + result)
 if user_input == "area of a cicrle":
- radius = float(inout("Enter a number:))
+ radius = float(input("Enter a number:))
  result = str(radius*radius*3.14)
  print ("the answer is" + result)
 if user_input == "circumference":  
