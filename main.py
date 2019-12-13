@@ -94,11 +94,11 @@ if user_input == "area of a parallelogram":
  base = float(input("Enter the width of the parallelogram:"))
  height = float(input("Enter the hieght of the paralleogram:"))
  result = str(base*height)
- print ("The area of the parallelogram is" + result)
+ print ("The area of the parallelogram is:" + result)
 if user_input == "perimeter of a parallelogram":
  base = float(input("Enter the width of the base of the parallelogram:"))
  side = float(input("Enter the legth of the side of the parallelogram:"))
- result = str(2*(base+side)
+ result = str(2*base+side)
  print ("The perimeter of the parallelogram is:" + result)
 if user_input == "              
                
