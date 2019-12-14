@@ -127,5 +127,3 @@ if user_input == "perimeter of a octagon":
  result = str(side*8)
  print ("The perimeter of the octagon is:" + result)
 if user_input == "area of a octagon":
-
-                   
