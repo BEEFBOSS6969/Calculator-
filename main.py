@@ -114,9 +114,8 @@ if user_input == "perimeter of a hexagon":
  result = str(side*6)
  print ("The perimeter of the Hexagon is:" + result)
 if user_input == "area of a heptagon":
- side = float(input("Enter the length of one of the sides of the Heptagon:"))
  perimeter = float(input(" Enter the perimeter of the heptagon:"))
- apothem = float(input("Enter a the distance fom the middle of the heptagon to the middle of a any side"))
+ apothem = float(input("Enter a the distance fom the middle of the heptagon to the middle of a any side:"))
  result = str((perimeter*apothem)/2)
  print (" The area of the heptagon is" + result)
 if user_input == "perimeter of a heptagon":
