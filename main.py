@@ -101,6 +101,6 @@ if user_input == "perimeter of a parallelogram":
  result = str(2*base+2*base)
  print ("The perimeter of the parallelogram is:" + result)              
 if user_input == "area of a hexagon":
- side = float(input("Enter the length of one of the sides of the hexagon:"))
+ side = int(input("Enter the length of one of the sides of the hexagon:"))
  result = str(math.sqrt(3)(3)/2(side*side))
  print ("The area of the Hexagon is:" + result)
