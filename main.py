@@ -103,7 +103,7 @@ if user_input == "perimeter of a parallelogram":
 # put the start of the area of a pentagon a function here once you figure it out
 if user_input == "perimeter of a pentagon":
  side = float(input("Enter the length of one of the sides of the Pentagon")
- result = str(side*5)
+result = str(side*5)
  print ("The perimeter of the Pentagon is" + result)             
 if user_input == "area of a hexagon":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
