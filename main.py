@@ -126,3 +126,7 @@ if user_input == "perimeter of a octagon":
  side = float(input("Enter the length of one of teh sides of the Octagon:"))
  result = str(side*8)
  print ("The perimeter of the octagon is:" + result)
+if user_input == "area of a octagon";
+ side = float(input("Enter the length of one of the sides of the octagon:"))
+ result = str(2(1+math.sqrt(2))side*side)
+ print (" The area of the octagon is:" + result)
