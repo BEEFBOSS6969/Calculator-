@@ -106,7 +106,7 @@ if user_input == "perimeter of a pentagon":
  result = str(side*5)
  print ("The perimeter of the Pentagon is" + result)             
 if user_input == "area of a hexagon":
- side = float(input("Enter the length of one of the sides of the hexagon:"))
+ side = int(input("Enter the length of one of the sides of the hexagon:"))
  result = str(math.sqrt(3)(3)/2(side*side))
  print ("The area of the Hexagon is:" + result)
 if user_input == "perimeter of a hexagon":
