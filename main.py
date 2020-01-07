@@ -115,7 +115,7 @@ if user_input == "area of a hexagon":
  print (result)
 if user_input == " area of a hexagonMK2":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
- radius = float(input("Enter the distance from the center to the middle point of one of the sides of the Hexagon:") 
+ radius = float(input("Enter the distance from the center to the middle point of one of the sides of the Hexagon:"))
  result = str((side*radius)*6)  
  print (result)
 if user_input == "perimeter of a hexagon":
