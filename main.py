@@ -102,7 +102,7 @@ if user_input == "perimeter of a parallelogram":
  print ("The perimeter of the parallelogram is:" + result)              
 if user_input == "area of a pentagon":
  side = float(input(" Enter the length of one of the sides of the pentagon:")
- radius = float(input("Enter the distance from the center point to the middle point of one of the sides of the Pentagon:"))
+ radius = int(input("Enter the distance from the center point to the middle point of one of the sides of the Pentagon:"))
  result = str((side*radius)*5))
  print (result)
 if user_input == "perimeter of a pentagon":
