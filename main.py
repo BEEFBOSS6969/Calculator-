@@ -100,11 +100,15 @@ if user_input == "perimeter of a parallelogram":
  side = float(input("Enter the legth of the side of the parallelogram:"))
  result = str(2*base+2*base)
  print ("The perimeter of the parallelogram is:" + result)              
-# put the start of the area of a pentagon a function here once you figure it out
+if user_input == "area of a pentagon":
+ side = float(input(" Enter the length of one of the sides of the pentagon:")
+ radius = float(input("Enter the distance from the center point to the middle point of one of the sides of the pentagon:")
+ result = str((side*radius)*5))
+ print (result)
 if user_input == "perimeter of a pentagon":
  side = float(input("Enter the length of one of the sides of the Pentagon:"))
  result = str(side*5)
- print ("The perimeter of the Pentagon is" + result)             
+ print (result)             
 if user_input == "area of a hexagon":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
  result = str(math.sqrt(3)(3)/2(side*side))
@@ -112,7 +116,7 @@ if user_input == " area of a hexagon2.0":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
  radius = float(input("Enter the distance from the center of the hexagon to the middle point of one of the sides:") 
  result = str((side*radius)*6)  
-print (result)
+ print (result)
  print ("The area of the Hexagon is:" + result)
 if user_input == "perimeter of a hexagon":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
