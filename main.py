@@ -147,3 +147,23 @@ if a user_input == "area of a OctagonMK2":
  radius = float(input("Enter the distance from the center point to the middle point of one of the sides of the Ocatagon:))
  result = str((side*radius)*8)
  print (result)
+if user_input " Perimeter of a Nonagon":
+ side = float(input("Enter the length of one of the sides of the Nonagon:"))
+ result = str(side*9)
+ print (result)
+if user_input == "Area of a Nonagon":
+ side = float(input("Enter the length of one of the sides of the Nonagon:))
+ radius = float(input("Enter the distance from the center point to the middle pont of one of the sides of the Nonagon:))
+ result = str((side*radius)*9)                     
+ print (result)
+if user_input == "Perimeter of a Decagon":
+ side = float(input("Enter the length of one of the sides of the Decagon:"))
+ result = str(side*10)
+ print (result)                     
+if user_input == "Area of a decagon":
+ side = float(input("Enter the length of one of the side of the Decagon:"))
+ radius = float(input("Enter the distance from the center point to the middle point of one of the sides of the Decagon:"))
+ result = str((side*radius)*10)             
+ print (result)
+              
+ 
