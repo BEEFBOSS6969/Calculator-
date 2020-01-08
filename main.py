@@ -247,3 +247,23 @@ if user_input == "Area of a Dodecagon":
  radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Dodecagon"))
  result = str((side*radius*12)/2)
  print (result)
+
+if user_input == "Distance formula":
+ x1 = float(input("Enter one of the x values:"))
+ x2 = float(input("Enter the other x value:"))
+ y1 = float(input("Enter the y value that goes along with the first x value:"))
+ y2 = float(input("Enter the other y value:"))
+ result = str(math.sqrt(math.sq(x2-x1)+math.sq(y2-y1)))
+                      
+if user_input == "Volume of a cube":
+ side = float(input("Enter the leght of one of the sides of the cube:"))
+ result = str(side*side*side)
+ print (result)
+
+if user_input == "Volume of a rectangular prism":
+ length = float(input("Enter the length of the rectangular prism"))
+ width = float(input("Enter the width of the rectangular prism"))
+ height = float(input("Enter the height of the rectangular prism"))
+ result = str(length*width*heigth)
+ print (result)                     
+                                            
