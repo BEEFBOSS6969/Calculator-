@@ -99,11 +99,43 @@ if user_input == "perimeter of a parallelogram":
  base = float(input("Enter the width of the base of the parallelogram:"))
  side = float(input("Enter the legth of the side of the parallelogram:"))
  result = str(2*base+2*base)
- print ("The perimeter of the parallelogram is:" + result)              
+ print ("The perimeter of the parallelogram is:" + result)
+if user_input == "area of a Rhombus":
+ side = float(input("Enter the length of one of the sides of the Rhombus:")
+ height = float(input("Enter the height of the Rhombus:")
+ result = str(side*height)
+ print (result)
+if user_input == "perimeter of a Rhombus":
+ side = float(input("Enter the length of one of the sides of the Rhombus:"))
+ result =str(side*4))
+ print (result)             
+if user_input == "Area of a Trapizoid":
+ bottom side = float(input("Enter the length of teh bottom side of the Trapazoid:"))+
+ top side = float(input("Enter the length of the top side of the Trapazoid:"))
+ height = float(input("Enter the height of the Trapzoid:"))
+ result = str((bottom side+top side)/2(height))
+ print (result)
+if user_input == "Perimeter of a Trapizoid":
+ bottom side = float(input("Enter the length of the bottom side of the Trapazoid:"))
+ top side = float(input("Enter the length of the top side of the Trapizoid:"))
+ left side = float(input("Enter the length of the left side of the Trapizoid:"))
+ right side = float(input("Enter the length of the right side of the Trapizoid:"))
+ result = str(bottom side+top side+left side+right side)
+ print (result)
+if user_input == "Area of a Kite":
+ vertical diagonal = float(input("Enter the distance from the top most vertex of the to the bottom most vertex of the Kite:"))
+ horezontal diagonal =float(input("Enter the distance from the left most vertex to the right most vertex of the KIte:"))
+ result = str((vertical diagonal+ horezontal diagonal)/2)
+ print (result)
+if user_input == "Perimeter of a Kite":
+ side A = float(input("Enter the length of one of the shorter sides of the Kite:"))
+ side B = float(input("Enter the Length of one of the shorter sides of the Kite:"))
+ result = str((side A*2)+(side B*2))                           
+#All polygons area formulas are to be changed to 1/2(radius*number of sides*side length) 
 if user_input == "area of a pentagon":
  side = float(input(" Enter the length of one of the sides of the pentagon:")
- radius = int(input("Enter the distance from the center point to the middle point of one of the sides of the Pentagon:"))
- result = str((side*radius)*5))
+ radius = int(input("Enter the distance from the center point to the middle point of any of the sides of the Pentagon:"))
+ result = str((radius*5*side)/2)
  print (result)
 if user_input == "perimeter of a pentagon":
  side = float(input("Enter the length of one of the sides of the Pentagon:"))
@@ -111,41 +143,30 @@ if user_input == "perimeter of a pentagon":
  print (result)             
 if user_input == "area of a hexagon":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
- result = str(math.sqrt(3)(3)/2(side*side))
- print (result)
-if user_input == " area of a hexagonMK2":
- side = float(input("Enter the length of one of the sides of the hexagon:"))
- radius = float(input("Enter the distance from the center to the middle point of one of the sides of the Hexagon:"))
- result = str((side*radius)*6)  
- print (result)
+ radius = float(input("Enter the distance from the center point of the to the middle point of any side of the sides hexagon:"))              
+ result = str((radius*6*side)/2)
+ print (result)             
 if user_input == "perimeter of a hexagon":
  side = float(input("Enter the length of one of the sides of the hexagon:"))
  result = str(side*6)
  print (result) 
 if user_input == "area of a heptagon":
- perimeter = float(input(" Enter the perimeter of the heptagon:"))
- apothem = float(input("Enter a the distance fom the middle of the heptagon to the middle of a any side:"))
- result = str((perimeter*apothem)/2)
- print (" The area of the heptagon is" + result)
-if user_input == "area of a heptagonMK2):
- side = float(input("Enter the length of on of the sides of the Heptagon")
- radius = float(input("Enter the distance from the center point to the middle point of one of the sides of the Heptagon:))
+ side = float(input("Enter the length of one of sides of the heptagon:"))
+ radius = float(input("Enter a the distance fom the center point of the to the middle point of a any side of the heptagon:"))
+ result = str((side*radius*7)/2)
+ print (result)
 if user_input == "perimeter of a heptagon":
- side = float(input("Enter the length of one of the sides of the heptagon"))
- result = str(side*6)
- print (" The perimeter of the Heptagon is:" + result)
+ side = float(input("Enter the length of one of the sides of the heptagon")
+ result = str(side*7)             
+ print (result)
 if user_input == "perimeter of a octagon":
  side = float(input("Enter the length of one of teh sides of the Octagon:"))
  result = str(side*8)
- print ("The perimeter of the octagon is:" + result)
+ print (result)
 if user_input == "area of a octagon":
- side = float(input("Enter the length of one of the sides of the octagon:"))
- result = str(2(1+math.sqrt(2)side*side)
- print (" The area of the octagon is:" + result)
-if a user_input == "area of a OctagonMK2":
- side = float(input("Enter the length one of the sides of the Octagon"))
- radius = float(input("Enter the distance from the center point to the middle point of one of the sides of the Ocatagon:))
- result = str((side*radius)*8)
+ side = float(input("Enter the length of one of the sides of the Octagon:"))
+ radius = float(input("Enter the distance from the center point to the middle point of any side of Octagon:"))              
+ result = str((side*radius*8)/2)
  print (result)
 if user_input " Perimeter of a Nonagon":
  side = float(input("Enter the length of one of the sides of the Nonagon:"))
@@ -153,8 +174,8 @@ if user_input " Perimeter of a Nonagon":
  print (result)
 if user_input == "Area of a Nonagon":
  side = float(input("Enter the length of one of the sides of the Nonagon:))
- radius = float(input("Enter the distance from the center point to the middle pont of one of the sides of the Nonagon:))
- result = str((side*radius)*9)                     
+ radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Nonagon:))
+ result = str((side*radius*9)/2)                     
  print (result)
 if user_input == "Perimeter of a Decagon":
  side = float(input("Enter the length of one of the sides of the Decagon:"))
@@ -162,8 +183,8 @@ if user_input == "Perimeter of a Decagon":
  print (result)                     
 if user_input == "Area of a decagon":
  side = float(input("Enter the length of one of the side of the Decagon:"))
- radius = float(input("Enter the distance from the center point to the middle pont of one of the sides of the Decagon:"))
- result = str((side*radius)*10)             
+ radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Decagon:"))
+ result = str((side*radius*10)/2)             
  print (result)
 if user_input == "Perimeter of a Hendecagon":
  side = float(input("Enter the length of one of the sides of the Hendecagon:"))
@@ -171,15 +192,15 @@ if user_input == "Perimeter of a Hendecagon":
  print (result)
 if user_input == "Area of a Hendecagon":
  side = float(input("Enter the length of one of the sides of the Hendecagon:"))
- radius = float(input("Enter the distance from the center point to the middle pont of one of the sides of the Hendecagon:"))
- result str((side*radius)*11)
+ radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Hendecagon:"))
+ result str((side*radius*11)/2)
  print (result)
 if user_input == "Perimeter of a Dodecagon":
  side = float(input("Enter the length of one of the sides of the Dodecagon"))
  result (side*12)
  print (result)                     
 if user_input == "Area of a Dodecagon":
- side = float(input("Enter the length of one of teh sides of teh Dodecagon"))
- radius = float(input("Enter the distance from the center point to the middle pont of one of the sides of the Dodecagon"))
- result = str((side*radius)*12)
- print (result)           
+ side = float(input("Enter the length of one of the sides of the Dodecagon"))
+ radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Dodecagon"))
+ result = str((side*radius*12)/2)
+ print (result)
