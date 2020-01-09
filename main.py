@@ -220,5 +220,15 @@ if user_input == "Volume of a rectangular prism":
     width = float(input("Enter the width of the rectangular prism"))
     height = float(input("Enter the height of the rectangular prism"))
     result = str(length*width*heigth)                     
-                                            
+if user_input == "Volume of a triangular prism":
+base*height*length/2
+if user_input == "Volume of a pyriamid":
+length*width*height/3
+if user_input == "Volume of a cone":
+pie*radiussquared*height/3
+if user_input == "Volume of a sphere":
+4/3*pie*radiuscubed
+if user_input == "Volume of a cylinder":
+pie*radiussquared*height
+                         
 print (result)
