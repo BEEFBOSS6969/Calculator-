@@ -102,7 +102,7 @@ if user_input == "perimeter of a parallelogram":
  
 if user_input == "area of a Rhombus":
     side = float(input("Enter the length of one of the sides of the Rhombus:")
-    height = float(input("Enter the height of the Rhombus:")
+    h = float(input("Enter the height of the Rhombus:")
     result = str(side*height)
                 
 if user_input == "perimeter of a Rhombus":
