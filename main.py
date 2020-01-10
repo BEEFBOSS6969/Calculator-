@@ -168,7 +168,7 @@ if user_input == "area of a octagon":
     radius = float(input("Enter the distance from the center point to the middle point of any side of Octagon:"))              
     result = str((side*radius*8)/2)
               
-if user_input " Perimeter of a Nonagon":
+if user_input == " Perimeter of a Nonagon":
     side = float(input("Enter the length of one of the sides of the Nonagon:"))
     result = str(side*9)
               
