@@ -219,16 +219,57 @@ if user_input == "Volume of a rectangular prism":
     length = float(input("Enter the length of the rectangular prism"))
     width = float(input("Enter the width of the rectangular prism"))
     height = float(input("Enter the height of the rectangular prism"))
-    result = str(length*width*heigth)                     
-if user_input == "Volume of a triangular prism":
-base*height*length/2
-if user_input == "Volume of a pyriamid":
-length*width*height/3
-if user_input == "Volume of a cone":
-pie*radiussquared*height/3
-if user_input == "Volume of a sphere":
-4/3*pie*radiuscubed
-if user_input == "Volume of a cylinder":
-pie*radiussquared*height
+    result = str(length*width*heigth)
                          
+if user_input == "Volume of a triangular prism":
+    base = float(input("Enter the length of the base of the triangular prism:"))
+    height = float(input("Enter the height of the triangular prism:"))
+    length = float(input("Enter the length of the triangular prism:"))
+    result = str((base*hieght*length)/2)
+                         
+if user_input == "Volume of a pyriamid":
+    length = float(input("Enter the length of the bottom of the pyriamid"))
+    width = float(input("Enter the width of the bottom of the pyriamid"))
+    heigth = float(input("enter the height of the pyrimid:"))
+    result = str((length*width*height)/3 
+                 
+if user_input == "Volume of a cone":
+    radius = float (input("Enter the readius of the cone:"))
+    height = float (input("Enter the height of the cone:"))
+    result = str(math.pie*height(radius*radius)/3)
+
+if user_input == "Volume of a sphere":
+    radius = float(input("Enter the radius of the sphere"))
+    result = str(4/3*math.pie(radius*radius*radius))
+                 
+if user_input == "Volume of a cylinder":
+    radius = float(input("Enter the radius of the cylinder"))
+    height = float(input("Enter the Height of the cylinder"))
+    result = str(math.pie*height(radius*radius)           
+
+if user_input == "Pythgoream theorem":
+    a = float(input("Enter the value of a:"))
+    b = float(input("Enter the value of b:"))
+    result = str((a*a)+(b*b))
+
+if user_input == "Quadratic formula":
+    b = float(input("Enter the value of b:"))
+    a = float(input("Enter the value of a:"))
+    c = float(input("Enter the value of c:"))
+    result = str(-b+(math.sqrt((b*b)-4*a*c)/2a)
+      
+if user_input == "Midpoint formula":
+    x1 = float(input("Enter the value of x on one of the end of the lines"))
+    y1 = float(input("Enter the value of y on the same end of the line that you got the x1 value"))
+    x2 = float(input("Enter the value of x on trhe opposite end of the line"))
+    y2 = float(input("Enter the value of y on the same end as x2"))
+    result = str((x1+x2)/2,(y1+y2))
+                 
+if user_input == "Slope":
+    x1 = float(input("Enter the value of the first x in the equation"))
+    y1 = float(input("Enter the value of the first y in the equation"))
+    x2 = float(input("Enter the value of the secound x in the equation"))
+    y2 = float(input('Enter the value of the secound y in the equation")) 
+    result = str((y2-y1),(x2-x1))                                  
+                 
 print (result)
