@@ -110,10 +110,10 @@ if user_input == "perimeter of a Rhombus":
     result =str(side*4)
               
 if user_input == "Area of a Trapizoid":
-    bottom side = float(input("Enter the length of the bottom side of the Trapazoid:"))
-    top side = float(input("Enter the length of the top side of the Trapazoid:"))
-    height = float(input("Enter the height of the Trapzoid:"))
-    result = str((bottom side+top side)/2(height))
+    bottomside = float (input("Enter the length of the bottom side of the Trapazoid:"))
+    top side = float (input("Enter the length of the top side of the Trapazoid:"))
+    height = float (input("Enter the height of the Trapzoid:"))
+    result = str ((bottom side+top side)/2(height))
               
 if user_input == "Perimeter of a Trapizoid":
     bottom side = float(input("Enter the length of the bottom side of the Trapazoid:"))
