@@ -101,8 +101,8 @@ if user_input == "perimeter of a parallelogram":
     result = str(2*base+2*base)
  
 if user_input == "area of a Rhombus":
-    side = float(input("Enter the length of one of the sides of the Rhombus:")
-    h = float(input("Enter the height of the Rhombus:")
+    side = float(input("Enter the length of one of the sides of the Rhombus:"))
+    height = float(input("Enter the height of the Rhombus:"))
     result = str(side*height)
                 
 if user_input == "perimeter of a Rhombus":
@@ -271,5 +271,6 @@ if user_input == "Slope":
     x2 = float(input("Enter the value of the secound x in the equation"))
     y2 = float(input('Enter the value of the secound y in the equation")) 
     result = str((y2-y1),(x2-x1))                                  
-                 
+ if user_input == "                
+                     
 print (result)
