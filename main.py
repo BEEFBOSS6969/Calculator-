@@ -110,27 +110,27 @@ if user_input == "perimeter of a Rhombus":
     result =str(side*4)
               
 if user_input == "Area of a Trapizoid":
-    bottomside = float (input("Enter the length of the bottom side of the Trapazoid:"))
-    top side = float (input("Enter the length of the top side of the Trapazoid:"))
+    bottoms_side = float (input("Enter the length of the bottom side of the Trapazoid:"))
+    top_side = float (input("Enter the length of the top side of the Trapazoid:"))
     height = float (input("Enter the height of the Trapzoid:"))
-    result = str ((bottom side+top side)/2(height))
+    result = str ((bottom_side+top_side)/2(height))
               
 if user_input == "Perimeter of a Trapizoid":
-    bottom side = float(input("Enter the length of the bottom side of the Trapazoid:"))
-    top side = float(input("Enter the length of the top side of the Trapizoid:"))
-    left side = float(input("Enter the length of the left side of the Trapizoid:"))
-    right side = float(input("Enter the length of the right side of the Trapizoid:"))
-    result = str(bottom side+top side+left side+right side)
+    bottom_side = float(input("Enter the length of the bottom side of the Trapazoid:"))
+    top_side = float(input("Enter the length of the top side of the Trapizoid:"))
+    left_side = float(input("Enter the length of the left side of the Trapizoid:"))
+    right_side = float(input("Enter the length of the right side of the Trapizoid:"))
+    result = str(bottom_side+top_side+left_side+right_side)
               
 if user_input == "Area of a Kite":
-    vertical diagonal = float(input("Enter the distance from the top most vertex of the to the bottom most vertex of the Kite:"))
-    horezontal diagonal =float(input("Enter the distance from the left most vertex to the right most vertex of the KIte:"))
-    result = str((vertical diagonal+ horezontal diagonal)/2)
+    vertical_diagonal = float(input("Enter the distance from the top most vertex of the to the bottom most vertex of the Kite:"))
+    horezontal_diagonal =float(input("Enter the distance from the left most vertex to the right most vertex of the KIte:"))
+    result = str((vertical_diagonal+horezontal_diagonal)/2)
               
 if user_input == "Perimeter of a Kite":
-    side A = float(input("Enter the length of one of the shorter sides of the Kite:"))
-    side B = float(input("Enter the Length of one of the shorter sides of the Kite:"))
-    result = str((side A*2)+(side B*2))
+    side_A = float(input("Enter the length of one of the shorter sides of the Kite:"))
+    side_B = float(input("Enter the Length of one of the shorter sides of the Kite:"))
+    result = str((side_A*2)+(side_B*2))
               
 if user_input == "area of a pentagon":
     side = float(input(" Enter the length of one of the sides of the pentagon:")
