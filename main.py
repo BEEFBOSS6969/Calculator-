@@ -156,7 +156,7 @@ if user_input == "area of a heptagon":
     result = str((side*radius*7)/2)
               
 if user_input == "perimeter of a heptagon":
-    side = float(input("Enter the length of one of the sides of the heptagon")
+    side = float(input("Enter the length of one of the sides of the heptagon"))
     result = str(side*7)             
               
 if user_input == "perimeter of a octagon":
