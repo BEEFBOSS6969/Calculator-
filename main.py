@@ -133,8 +133,8 @@ if user_input == "Perimeter of a Kite":
     result = str((side_A*2)+(side_B*2))
               
 if user_input == "area of a pentagon":
-    side = int(input(" Enter the length of one of the sides of the pentagon:")
-    radius = int(input("Enter the distance from the center point to the middle point of any of the sides of the Pentagon:"))
+    side = float(input("Enter the length of one of the sides of the pentagon:"))
+    radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Pentagon:"))
     result = str((radius*5*side)/2)
               
 if user_input == "perimeter of a pentagon":
