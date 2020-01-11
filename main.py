@@ -193,11 +193,11 @@ if user_input == "Perimeter of a Hendecagon":
 if user_input == "Area of a Hendecagon":
     side = float(input("Enter the length of one of the sides of the Hendecagon:"))
     radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Hendecagon:"))
-    result str((side*radius*11)/2)
+    result = str((side*radius*11)/2)
                       
 if user_input == "Perimeter of a Dodecagon":
     side = float(input("Enter the length of one of the sides of the Dodecagon:"))
-    result (side*12)
+    result = str(side*12)
                       
 if user_input == "Area of a Dodecagon":
     side = float(input("Enter the length of one of the sides of the Dodecagon"))
