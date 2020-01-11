@@ -234,8 +234,8 @@ if user_input == "Volume of a pyriamid":
     result = str((length*width*height)/3 
                  
 if user_input == "Volume of a cone:"
-    radius = float (input("Enter the readius of the cone:"))
-    height = float (input("Enter the height of the cone:"))
+    radius = float(input("Enter the readius of the cone:"))
+    height = float(input("Enter the height of the cone:"))
     result = str(math.pie*height(radius*radius)/3)
 
 if user_input == "Volume of a sphere":
