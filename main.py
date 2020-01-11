@@ -1,5 +1,6 @@
 import math
 
+# learn how to use user input to do all simple functions
 user_input = input("operation:")
 if user_input == "add":
     num1 = float(input("Enter a number:"))
@@ -28,7 +29,16 @@ if user_input == "square root":
 if user_input == "square":
     num1 = float (input("Enter a number:"))
     result = str(num1*num1)
- 
+    
+if user_input == "cubing":
+    num1 = float (input( "Enter a number:"))
+    result = str(num1*num1*num1)
+    
+if user_input == "exponent":
+    num1 = float(input("Enter a number:"))
+    num2 = float(input("Enter another number:"))
+    result = str(num1**num2)
+   
 if user_input == "cos":
     num1 = float (input("Enter a number:"))
     result = str(math.cos(num1))
@@ -40,15 +50,6 @@ if user_input == "sin":
 if user_input == "tan":
     num1 = float (input("Enter a number:"))
     result = str(math.tan(num1))
- 
-if user_input == "cubing":
-    num1 = float (input( "Enter a number:"))
-    result = str(num1*num1*num1)
- 
-if user_input == "exponent":
-    num1 = float(input("Enter a number:"))
-    num2 = float(input("Enter another number:"))
-    result = str(num1**num2)
  
 if user_input == "atan":
     num1 = float(input("Enter a number:"))
