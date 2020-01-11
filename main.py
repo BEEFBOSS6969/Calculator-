@@ -271,6 +271,35 @@ if user_input == "Slope":
     x2 = float(input("Enter the value of the secound x in the equation"))
     y2 = float(input('Enter the value of the secound y in the equation")) 
     result = str((y2-y1),(x2-x1))                                  
- if user_input == "                
+ if user_input == "Speed formula physics":
+     distance = float(input("Enter the total distance you a going or a object is going:"))
+     time = float(input("Enter the total time it takes to travel that distance:"))
+     result = str(distance/time)
                      
+if user_input == "Time formula physics":
+    speed = float(input("Enter the speed at which you or an object is going:"))
+    distance = float(input("Enter the total distance you or an object is going"))
+    result = str(distance/speed)
+                     
+if user_input == "Distance formula physics":
+    speed = float(input("Enter the speed at which you or an object is going:"))
+    time = float(input("Enter the total time spent at that speed:"))
+    result = str(speed*time)
+                     
+if user_input == "Trigonometric formula for sin(2a)":
+    a = float(input("Enter the value of a:"))
+    result = str(2*math.sin*a*math.cos*a=(2*math.tan*a)/(1+(math.tan*math.tan)*a))
+
+if user_input == "Trigonometric formula for cos(2a)":
+    a = float(input("Enter the value of a:"))
+    result = str((math.cos*math.cos)a-(math.sin*math.sin)a=2(math.cos*math.cos)a-1)
+                     
+if user_input == "Trigonometric formula for tan(2a)":
+    a = float(input("Enter the vakue of a:'))
+    result = str((2*math.tan*a)/(1-(math.tan*math.tan)a)
+                 
+if user_input== "trigonometric formula for cot(2a)":
+    a = float(input("Enter the value of a:"))
+    result = str(((math.cot*math.cot)a-1)/(2*math.cot*a))
+                   
 print (result)
