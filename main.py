@@ -173,8 +173,8 @@ if user_input == " Perimeter of a Nonagon":
     result = str(side*9)
               
 if user_input == "Area of a Nonagon":
-    side = float(input("Enter the length of one of the sides of the Nonagon:))
-    radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Nonagon:))
+    side = float(input("Enter the length of one of the sides of the Nonagon:"))
+    radius = float(input("Enter the distance from the center point to the middle point of any of the sides of the Nonagon:"))
     result = str((side*radius*9)/2)
                       
 if user_input == "Perimeter of a Decagon":
@@ -196,7 +196,7 @@ if user_input == "Area of a Hendecagon":
     result str((side*radius*11)/2)
                       
 if user_input == "Perimeter of a Dodecagon":
-    side = float(input("Enter the length of one of the sides of the Dodecagon"))
+    side = float(input("Enter the length of one of the sides of the Dodecagon:"))
     result (side*12)
                       
 if user_input == "Area of a Dodecagon":
