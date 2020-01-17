@@ -240,12 +240,12 @@ if user_input == "Volume of a cone":
     result = str(math.pie*height(radius*radius)/3)
 
 if user_input == "Volume of a sphere":
-    radius = float(input("Enter the radius of the sphere"))
+    radius = float(input("Enter the radius of the sphere:"))
     result = str(4/3*math.pie(radius*radius*radius))
                  
 if user_input == "Volume of a cylinder":
-    radius = float(input("Enter the radius of the cylinder"))
-    height = float(input("Enter the Height of the cylinder"))
+    radius = float(input("Enter the radius of the cylinder:"))
+    height = float(input("Enter the Height of the cylinder:"))
     result = str(math.pie*height(radius*radius)           
 
 if user_input == "Pythgoream theorem":
@@ -260,17 +260,17 @@ if user_input == "Quadratic formula":
     result = str(-b+(math.sqrt((b*b)-4*a*c)/2a)
       
 if user_input == "Midpoint formula":
-    x1 = float(input("Enter the value of x on one of the end of the lines"))
-    y1 = float(input("Enter the value of y on the same end of the line that you got the x1 value"))
-    x2 = float(input("Enter the value of x on trhe opposite end of the line"))
-    y2 = float(input("Enter the value of y on the same end as x2"))
+    x1 = float(input("Enter the value of x on one of the end of the lines:"))
+    y1 = float(input("Enter the value of y on the same end of the line that you got the x1 value:"))
+    x2 = float(input("Enter the value of x on trhe opposite end of the line:"))
+    y2 = float(input("Enter the value of y on the same end as x2:"))
     result = str((x1+x2)/2,(y1+y2))
                  
 if user_input == "Slope":
-    x1 = float(input("Enter the value of the first x in the equation"))
-    y1 = float(input("Enter the value of the first y in the equation"))
-    x2 = float(input("Enter the value of the secound x in the equation"))
-    y2 = float(input('Enter the value of the secound y in the equation")) 
+    x1 = float(input("Enter the value of the first x in the equation:"))
+    y1 = float(input("Enter the value of the first y in the equation:"))
+    x2 = float(input("Enter the value of the secound x in the equation:"))
+    y2 = float(input('Enter the value of the secound y in the equation:")) 
     result = str((y2-y1),(x2-x1))                                  
  if user_input == "Speed formula physics":
      distance = float(input("Enter the total distance you a going or a object is going:"))
@@ -279,7 +279,7 @@ if user_input == "Slope":
                      
 if user_input == "Time formula physics":
     speed = float(input("Enter the speed at which you or an object is going:"))
-    distance = float(input("Enter the total distance you or an object is going"))
+    distance = float(input("Enter the total distance you or an object is going:"))
     result = str(distance/speed)
                      
 if user_input == "Distance formula physics":
@@ -296,7 +296,7 @@ if user_input == "Trigonometric formula for cos(2a)":
     result = str((math.cos*math.cos)a-(math.sin*math.sin)a=2(math.cos*math.cos)a-1)
                      
 if user_input == "Trigonometric formula for tan(2a)":
-    a = float(input("Enter the vakue of a:'))
+    a = float(input("Enter the value of a:'))
     result = str((2*math.tan*a)/(1-(math.tan*math.tan)a)
                  
 if user_input== "trigonometric formula for cot(2a)":
