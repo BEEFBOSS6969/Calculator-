@@ -232,7 +232,7 @@ if user_input == "Volume of a pyriamid":
     length = float(input("Enter the length of the bottom of the pyriamid:"))
     width = float(input("Enter the width of the bottom of the pyriamid:"))
     heigth = float(input("Enter the height of the pyrimid:"))
-    result = str((length*width*height)/3 
+    result = str((length*width*height)/3)
                  
 if user_input == "Volume of a cone":
     radius = float(input("Enter the readius of the cone:"))
@@ -319,6 +319,6 @@ if user_input == "Inital velocity formula":
     final_velocity = float(input("Enter the final velocity of the object or person:"))
     acceleration = float(input("Enter the accelerationof the person or object:"))             
     time = float(input("Enter the time it took the object or person to travel a set distence:"))
-    result - float(final_velocity-(acceleration*time))
+    result = float(final_velocity-(acceleration*time))
                  
 print (result)
