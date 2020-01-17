@@ -246,7 +246,7 @@ if user_input == "Volume of a sphere":
 if user_input == "Volume of a cylinder":
     radius = float(input("Enter the radius of the cylinder:"))
     height = float(input("Enter the Height of the cylinder:"))
-    result = str(math.pie*height(radius*radius)           
+    result = str(math.pie*height(radius*radius))           
 
 if user_input == "Pythgoream theorem":
     a = float(input("Enter the value of a:"))
