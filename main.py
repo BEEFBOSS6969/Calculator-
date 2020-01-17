@@ -257,7 +257,7 @@ if user_input == "Quadratic formula":
     b = float(input("Enter the value of b:"))
     a = float(input("Enter the value of a:"))
     c = float(input("Enter the value of c:"))
-    result = str(-b+(math.sqrt((b*b)-4*a*c)/2a)
+    result = str(-b+(math.sqrt((b*b)-4*a*c)/2a))
       
 if user_input == "Midpoint formula":
     x1 = float(input("Enter the value of x on one of the end of the lines:"))
