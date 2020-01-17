@@ -229,12 +229,12 @@ if user_input == "Volume of a triangular prism":
     result = str((base*hieght*length)/2)
                          
 if user_input == "Volume of a pyriamid":
-    length = float(input("Enter the length of the bottom of the pyriamid"))
-    width = float(input("Enter the width of the bottom of the pyriamid"))
-    heigth = float(input("enter the height of the pyrimid:"))
+    length = float(input("Enter the length of the bottom of the pyriamid:"))
+    width = float(input("Enter the width of the bottom of the pyriamid:"))
+    heigth = float(input("Enter the height of the pyrimid:"))
     result = str((length*width*height)/3 
                  
-if user_input = "Volume of a cone":
+if user_input == "Volume of a cone":
     radius = float(input("Enter the readius of the cone:"))
     height = float(input("Enter the height of the cone:"))
     result = str(math.pie*height(radius*radius)/3)
