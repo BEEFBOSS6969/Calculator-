@@ -270,7 +270,7 @@ if user_input == "Slope":
     x1 = float(input("Enter the value of the first x in the equation:"))
     y1 = float(input("Enter the value of the first y in the equation:"))
     x2 = float(input("Enter the value of the secound x in the equation:"))
-    y2 = float(input('Enter the value of the secound y in the equation:")) 
+    y2 = float(input("Enter the value of the secound y in the equation:")) 
     result = str((y2-y1),(x2-x1))                                  
  if user_input == "Speed formula physics":
      distance = float(input("Enter the total distance you a going or a object is going:"))
