@@ -273,7 +273,7 @@ if user_input == "Slope":
     y2 = float(input("Enter the value of the secound y in the equation:")) 
     result = str((y2-y1),(x2-x1))
                                   
- if user_input == "Speed formula physics":
+if user_input == "Speed formula physics":
      distance = float(input("Enter the total distance you a going or a object is going:"))
      time = float(input("Enter the total time it takes to travel that distance:"))
      result = str(distance/time)
