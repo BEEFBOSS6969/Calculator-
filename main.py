@@ -298,7 +298,7 @@ if user_input == "Trigonometric formula for cos(2a)":
                      
 if user_input == "Trigonometric formula for tan(2a)":
     a = float(input("Enter the value of a:"))
-    result = str((2*math.tan*a)/(1-(math.tan*math.tan)a))
+    result = str((2*math.tan*a)/1-(math.tan*math.tan)a)
                  
 if user_input== "trigonometric formula for cot(2a)":
     a = float(input("Enter the value of a:"))
