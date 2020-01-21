@@ -290,7 +290,7 @@ if user_input == "Distance formula physics":
                      
 if user_input == "Trigonometric formula for sin(2a)":
     a = float(input("Enter the value of a:"))
-    result = str(2*math.sin*a*math.cos*a=(2*math.tan*a)/(1+(math.tan^2)*a))
+    result = str(2*(math.sin)*a*(math.cos)*a=(2*(math.tan)*a)/(1+(math.tan^2)*a))
 
 if user_input == "Trigonometric formula for cos(2a)":
     a = float(input("Enter the value of a:"))
