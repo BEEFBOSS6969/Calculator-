@@ -302,7 +302,7 @@ if user_input == "Trigonometric formula for tan(2a)":
                  
 if user_input== "trigonometric formula for cot(2a)":
     a = float(input("Enter the value of a:"))
-    result = str(((math.cot*math.cot)a-1)/(2*math.cot*a))
+    result = str((math.cot*math.cot)(a-1)/(2*math.cot*a)
                  
 if user_input == "Acceleration formula":
     final_velocity = float(input("Enter the final velocity of the object or person:"))
