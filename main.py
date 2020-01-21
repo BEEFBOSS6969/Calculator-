@@ -294,7 +294,7 @@ if user_input == "Trigonometric formula for sin(2a)":
 
 if user_input == "Trigonometric formula for cos(2a)":
     a = float(input("Enter the value of a:"))
-    result = str((math.cos*math.cos)a-(math.sin*math.sin)a=2(math.cos*math.cos)a-1)
+    result = str((math.cos*math.cos)*a-(math.sin*math.sin)*a=2(math.cos*math.cos)*a-1)
                      
 if user_input == "Trigonometric formula for tan(2a)":
     a = float(input("Enter the value of a:'))
