@@ -306,7 +306,7 @@ if user_input == "trigonometric formula for cot(2a)":
                  
 if user_input == "Acceleration formula":
     final_velocity = float(input("Enter the final velocity of the object or person:"))
-    inital_velocity= float(input("Enter the starting velocity of the object or person:"))
+    inital_velocity = float(input("Enter the starting velocity of the object or person:"))
     time = float(input("Enter the time it took the object or person to cover that distance:"))
     result = str((final_velocity-inital_velocity)/time)
                  
