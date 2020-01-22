@@ -287,22 +287,6 @@ if user_input == "Distance formula physics":
     speed = float(input("Enter the speed at which you or an object is going:"))
     time = float(input("Enter the total time spent at that speed:"))
     result = str(speed*time)
-                     
-if user_input == "Trigonometric formula for sin(2a)":
-    a = float(input("Enter the value of a:"))
-    result = str(2*(math.sin)*a*(math.cos)*a=(2*(math.tan)*a)/(1+(math.tan^2)*a))
-
-if user_input == "Trigonometric formula for cos(2a)":
-    a = float(input("Enter the value of a:"))
-    result = str((math.cos^2)*a-(math.sin^2)*a=2(math.cos^2)*a-1)
-                     
-if user_input == "Trigonometric formula for tan(2a)":
-    a = float(input("Enter the value of a:"))
-    result = str((2*math.tan*a)/1-(math.tan^2)*a)
-                 
-if user_input == "Trigonometric formula for cot(2a)":
-    a = float(input("Enter the value of a:"))
-    result = str((math.cot*math.cot)(a-1)/(2*math.cot*a))
                  
 if user_input == "Acceleration formula":
     final_velocity = float(input("Enter the final velocity of the object or person:"))
