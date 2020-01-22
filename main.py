@@ -305,5 +305,10 @@ if user_input == "Inital velocity formula":
     acceleration = float(input("Enter the acceleration of the person or object:"))             
     time = float(input("Enter the time it took the object or person to travel a set distence:"))
     result = float(final_velocity-(acceleration*time))
+
+if user_input == " Centroid of a triangle formula"
+    a = float(input("Enter the value of the a point of the triangle:"))
+    b = float(input("Enter the value of the b point of the triangle:"))
+    c = float(input("Enter the value of the c point of the triangle:"))
                  
 print (result)
