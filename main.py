@@ -23,7 +23,7 @@ if user_input == "divide":
     result = str(num1/num2)
  
 if user_input == "square root":
-    num1 = int(input("Enter a number:"))
+    num1 = float(input("Enter a number:"))
     result = str(math.sqrt(num1))
  
 if user_input == "square":
