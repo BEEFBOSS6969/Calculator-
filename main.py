@@ -65,7 +65,7 @@ if user_input == "asin":
  
 if user_input == "area of a circle":
     radius = float(input("Enter the radius of a circle:"))
-    result = str(radius*radius*(math.pie)
+    result = str(radius*radius*3.14)
  
 if user_input == "circumference":  
     radius = float(input("Entrer a number:"))
