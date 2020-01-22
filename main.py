@@ -64,7 +64,7 @@ if user_input == "asin":
     result = str(math.asin(num1))
  
 if user_input == "area of a circle":
-    radius = float(input("Enter a number:"))
+    radius = float(input("Enter the radius of a circle:"))
     result = str(radius*radius*3.14)
  
 if user_input == "circumference":  
